@@ -97,8 +97,27 @@ public class Part2Dialog {
         System.out.print("What is your dream for the future? ");
         String dream = scanner.nextLine();
 
+        // Part 2.14. Final Summary
+        System.out.println("\n=================================");
+        System.out.println("          PERSONAL SUMMARY");
+        System.out.println("=================================");
 
-        // Part 2.13. Chatbot String Operations
+        System.out.println("Full name: " + firstName + " " + lastName);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height + " m");
+        System.out.println("Favorite letter: " + favoriteLetter);
+        System.out.println("Student: " + isStudent);
+        System.out.println("City: " + city);
+        System.out.println("Number of siblings: " + siblings);
+        System.out.println("Favorite hobby: " + hobby);
+        System.out.println("Favorite food: " + favoriteFood);
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Dream: " + dream);
+
+        System.out.println("\nThank you for talking with me, " + firstName + "!");
+        System.out.println("It was nice to learn more about you.");
+
+               // Part 2.13. Chatbot String Operations
         System.out.println("\n=================================");
         System.out.println("          CHATBOT ANALYSIS");
         System.out.println("=================================");
@@ -150,27 +169,6 @@ public class Part2Dialog {
                             + "at position " + foodPosition + "."
             );
         }
-
-
-        // Part 2.14. Final Summary
-        System.out.println("\n=================================");
-        System.out.println("          PERSONAL SUMMARY");
-        System.out.println("=================================");
-
-        System.out.println("Full name: " + firstName + " " + lastName);
-        System.out.println("Age: " + age);
-        System.out.println("Height: " + height + " m");
-        System.out.println("Favorite letter: " + favoriteLetter);
-        System.out.println("Student: " + isStudent);
-        System.out.println("City: " + city);
-        System.out.println("Number of siblings: " + siblings);
-        System.out.println("Favorite hobby: " + hobby);
-        System.out.println("Favorite food: " + favoriteFood);
-        System.out.println("Favorite number: " + favoriteNumber);
-        System.out.println("Dream: " + dream);
-
-        System.out.println("\nThank you for talking with me, " + firstName + "!");
-        System.out.println("It was nice to learn more about you.");
 
         scanner.close();
     }

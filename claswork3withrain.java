@@ -8,7 +8,7 @@ public class claswork3withrain{
         System.out.print("Is Raining? (yes/no): ");
         String isRaining = scanner.nextLine().trim().toLowerCase();
 
-        if (isRaining.equals("yes")) {
+        if (isRaining.equals("yes") || isRaining.equals("y")) {
             System.out.println("Stay at Home");
         } 
         else {
